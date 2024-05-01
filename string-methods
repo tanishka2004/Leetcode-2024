@@ -1,0 +1,13 @@
+class Solution {
+    public String reversePrefix(String word, char ch) {
+    int firstComes = word.indexOf(ch){
+    if(firstComes == -1)(
+      return word; 
+      )
+ StringBuilder sb = new StringBuilder(word.substring(0, firstComes + 1)).reverse();
+ if (firstComes < word.length()){
+  sb.append(word.substring(firstComes + 1));
+}
+return sb.toString();
+}
+}
