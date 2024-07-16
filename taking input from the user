@@ -1,4 +1,4 @@
-# ssum of two numbers
+# sum of two numbers
 num1 = int(input("enter first number:"))
 num2 = int(input("enter second number:"))
 print("The sum of two numbers are:" , num1 + num2)
