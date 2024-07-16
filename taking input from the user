@@ -1,0 +1,13 @@
+# ssum of two numbers
+num1 = int(input("enter first number:"))
+num2 = int(input("enter second number:"))
+print("The sum of two numbers are:" , num1 + num2)
+
+# area of square
+a = int(input("side of a square:"))
+print("The area of square is:" , a*a)
+
+# average
+b = int(input("1st num:"))
+c = int(input("2nd num:"))
+print( b > c or b == c)
